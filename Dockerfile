@@ -1,5 +1,5 @@
 FROM node:latest
-WORKDIR /usr/src/app
+WORKDIR /appnodejs
 ADD . /appnodejs
 RUN npm install
 EXPOSE 3000
